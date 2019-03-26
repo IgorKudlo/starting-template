@@ -1,0 +1,62 @@
+// Path
+$img-dir-path: '../images/';
+
+
+// Fonts
+$font-family:      ('Roboto', 'Arial', 'Helvetica', sans-serif);
+$font-size-base:   16px;
+$line-height-base: 1.4;
+$line-height-sm:   1.2;
+
+$font-weight-light:   300;
+$font-weight-regular: normal;
+$font-weight-bold:    bold;
+$font-weight-heavy:   800;
+
+$font-size-large:  18px;
+$font-size-small:  14px;
+$font-size-xsmall: 12px;
+
+
+// Colors
+$color-accent:       #6bbc2f;
+$color-white:        #fff;
+$color-black:        #000;
+$color-red:          #da2c2c;
+
+
+// links
+$link-color: $color-accent;
+
+
+
+// Animations
+$transition-time:   .25s;
+$transition-effect: ease-out;
+
+
+// Layout
+$layout-padding-h:  15px;
+
+
+// Buttons
+$btn-font-weight:     $font-weight-bold;
+$btn-line-height:     $line-height-base;
+$btn-font-size:       $font-size-base;
+$btn-border-radius:   4px;
+$btn-border-width:    1px;
+$btn-padding-h:       15px;
+$btn-padding-v:       9px;
+$btn-padding-v-small: 7px;
+
+
+// Forms
+$form-label-color:     $color-black;
+$form-label-font-size: $font-size-small;
+$input-border-color:   $color-white;
+
+
+// section padding
+$section-padding: 75px;
+$section-padding-md: 50px;
+$section-padding-sm: 40px;
