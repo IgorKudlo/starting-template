@@ -10,7 +10,7 @@ body {
     width: 100%;
     height: 100%;
     line-height: $line-height-base;
-    font: $font-size-base $font-family;
+    font: vmax($font-size-base) $font-family;
     color: $color-black;
     background-color: $color-white;
 }
@@ -31,7 +31,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: vw(1200px);
     margin: 0 auto;
-    padding: 0 $layout-padding-h;
+    padding: 0 vw($layout-padding-h);
 }

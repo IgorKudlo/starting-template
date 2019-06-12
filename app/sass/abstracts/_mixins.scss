@@ -3,6 +3,25 @@
     @return $px / $font-size-base + 0rem;
 }
 
+// px to vw
+@function vw($target) {
+    $vw-context: ($width-screen*.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}
+
+
+// px to vmax
+@function vmax($target) {
+    $vmax-context: ($width-screen*.01) * 1px;
+    @return ($target/$vmax-context) * 1vmax;
+}
+
+
+// px to vh
+@function vh($target) {
+    $vh-context: ($height-screen*.01) * 1px;
+    @return ($target/$vh-context) * 1vw;
+}
 
 @mixin list-reset {
     margin: 0;
@@ -26,9 +45,7 @@
     @font-face {
         font-family: $alias;
         src: url("../fonts/" + $name + ".woff2") format("woff2"),
-        url("../fonts/" + $name + ".woff") format("woff"),
-        url("../fonts/" + $name + ".ttf") format("truetype"),
-        url("../fonts/" + $name + ".eot") format("embedded-opentype");
+        url("../fonts/" + $name + ".woff") format("woff");
         font-weight: $weight;
         font-style: $style;
     }
